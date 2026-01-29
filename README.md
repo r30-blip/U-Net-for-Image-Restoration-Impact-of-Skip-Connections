@@ -65,8 +65,8 @@ RMSE（Root Mean Squared Error）
 
 実験結果（定量評価）
 モデル	RMSE (train)	RMSE (test)	R² (train)	R² (test)
-Enc–Dec (no-skip)	0.0868	0.0871	0.7940	0.7926
-U-Net	0.0750	0.0752	0.8463	0.8451
+Enc–Dec (no-skip)	  0.0868	    0.0871	    0.7940	0.7926
+U-Net	              0.0750	    0.0752	    0.8463	0.8451
 
 U-Net モデルは、no-skip モデルと比較して
 RMSE の低下・R² の向上の両方を達成している。
