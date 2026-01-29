@@ -12,6 +12,7 @@ skip connection を持たない Enc–Dec モデルを比較し、
 
 
 **データセットと劣化処理**
+
 ファイル名:cifar10_degradation.m
 
 元データ：CIFAR-10（32×32 RGB 画像）
@@ -29,6 +30,7 @@ skip connection を持たない Enc–Dec モデルを比較し、
 
 
 **モデル構成**
+
 1. Enc–Dec（no-skip）モデル
 
 ファイル名:no_skip.m
@@ -105,6 +107,7 @@ skip connection は画像復元において重要な役割を果たす
 定量評価（RMSE / R²）と視覚的評価は一致する傾向を示す
 
 U-Net は低解像度画像に対しても有効に機能する
+
 
 **想定用途**
 
