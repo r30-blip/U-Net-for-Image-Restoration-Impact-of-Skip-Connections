@@ -30,6 +30,7 @@ skip connection を持たない Enc–Dec モデルを比較し、
 
 **モデル構成**
 1. Enc–Dec（no-skip）モデル
+
 ファイル名:no_skip.m
 
 畳み込み + MaxPooling による Encoder
@@ -41,6 +42,7 @@ skip connection を持たない Enc–Dec モデルを比較し、
 → 高解像度の局所情報が復元時に失われやすい構造
 
 2. U-Net（skip connection あり）
+
 ファイル名:skip_connect.m
 
 上記 Enc–Dec 構造を拡張
